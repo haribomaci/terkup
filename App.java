@@ -8,10 +8,25 @@
 * Licenc: GNU GPL
 */
 
-import java
+import java.util.Scanner;
 public class App {
 	
 	public static void main (String[] args) {
+		System.out.println("Toth Julia, 2022-02-16, szoft 1/n");
+		System.out.println("Feladat 0306");
+		System.out.println("Haromszog teruletszamitas");
+		System.out.println();
+		
+		Scanner scan= new Scanner(System.in);
+		
+		System.out.print("Alap: ");
+		double alap = scan.nextDouble();
+		System.out.print("Magassag: ");
+		double magassag = scan.nextDouble();
+		
+		double terulet = alap * magassag;
+		System.out.println("Terulet: "+ terulet);
+		
 		
 	}
 }
